@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300');
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+
 html,
 body {
 	width: 100%;
 	height: 100%;
+	padding-top: 70px;
 }
 
 body {
 	font-family: 'Maven Pro', sans-serif;
 	color: #001A33;
 	-webkit-tap-highlight-color: #222;
-	top: 0;
 }
 
 
@@ -226,23 +227,24 @@ header {
 	text-align: center;
 	color: #001A33;
 	width: 100%;
+}
+
+header .header-content {
+	width:100%;
 	background: url('../img/3210506796_e01d4f546d_o.jpg') center center no-repeat;
 	background-size: cover;
 }
 
-header .header-content {
+header .header-content .inner {
+	margin-bottom: 30px;
+	margin-top: 30px;
 	position: relative;
-	width: 80%;
-	padding: 100px 15px;
+	padding: 60px 15px;
 	text-align: center;
 	z-index: 2;
 	background-color: rgba(255, 255, 255, 0.8);
 	border: solid 2px #009999;
 	border-radius: 5px;
-}
-
-header .header-content .inner {
-	margin-bottom: 30px;
 }
 
 header .header-content .inner h1 {
