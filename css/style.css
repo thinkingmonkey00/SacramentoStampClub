@@ -8,6 +8,7 @@ body {
 body {
 	color: #001A33;
 	-webkit-tap-highlight-color: #222;
+		font-family: 'Maven Pro', sans-serif;
 }
 
 
@@ -50,17 +51,16 @@ a:focus {
 }
 
 h1,
-h2,
 h3 {
 	font-family: 'Josefin Slab', serif;
 	text-transform: uppercase;
 }
 
+h2,
 h4,
 h5,
 h6 {
 	font-family: 'Maven Pro', sans-serif;
-	text-transform: uppercase;
 }
 
 p {
@@ -225,9 +225,7 @@ aside {
 {}
 
 header {
-	position: relative;
-	min-height: auto;
-	max-height: 800px;
+
 	text-align: center;
 	color: #001A33;
 	width: 100%;
@@ -235,15 +233,16 @@ header {
 
 header .header-content {
 	width: 100%;
+	height: auto;
 	background: url('../img/3210506796_e01d4f546d_o.jpg') center center no-repeat;
 	background-size: cover;
 }
 
 header .header-content .inner {
-	margin-bottom: 30px;
-	margin-top: 30px;
+	margin-bottom: 60px;
+	margin-top: 160px;
 	position: relative;
-	padding: 60px 15px;
+	padding: 30px 150px;
 	text-align: center;
 	z-index: 2;
 	background-color: rgba(255, 255, 255, 0.8);
@@ -414,9 +413,13 @@ iframe {
 	border-radius: 5px;
 }
 
+#sacapexInfo .container-fluid {
+	background-color: #009999;
+}
+
 #sacapexInfo h2 {
 	text-align: center;
-	color: #990000;
+	color: #fff;
 	font-size: 2.5em;
 	line-height: 1.5em;
 }
