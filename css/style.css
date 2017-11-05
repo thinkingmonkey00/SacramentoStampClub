@@ -11,6 +11,7 @@ body {
 		font-family: 'Maven Pro', sans-serif;
 }
 
+
 /* workaround modal-open padding issue */
 
 .modal-open {
@@ -121,10 +122,6 @@ p {
 	color: #990000;
 }
 
-aside {
-	padding: 45px 0;
-}
-
 .navbar {
 	border-color: rgba(35, 35, 35, .05);
 	background-color: #fff;
@@ -221,84 +218,6 @@ aside {
 	background-color: #fff;
 }
 
-{}
-
-header {
-
-	text-align: center;
-	color: #001A33;
-	width: 100%;
-}
-
-header .header-content {
-	width: 100%;
-	height: auto;
-	background: url('../img/3210506796_e01d4f546d_o.jpg') center center no-repeat;
-	background-size: cover;
-}
-
-header .header-content .inner {
-	margin-bottom: 60px;
-	margin-top: 160px;
-	position: relative;
-	padding: 30px 150px;
-	text-align: center;
-	z-index: 2;
-	background-color: rgba(255, 255, 255, 0.8);
-	border: solid 2px #009999;
-	border-radius: 5px;
-}
-
-header .header-content .inner h1 {
-	color: #990000;
-	margin-top: 30px;
-	margin-bottom: 10px;
-	z-index: 1;
-}
-
-header .header-content .inner p {
-	font-size: 16px;
-	font-weight: 300;
-	color: #222;
-	z-index: 1;
-}
-
-@media(min-width:34em) {
-	.icon-lg
-}
-
-header {
-	min-height: 100%;
-}
-
-header .header-content {
-	position: absolute;
-	top: 50%;
-	padding: 0 50px;
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
-}
-
-header .header-content .inner {
-	margin-right: auto;
-	margin-left: auto;
-	max-width: 1000px;
-}
-
-header .header-content .inner h1 {
-	font-size: 53px;
-}
-
-header .header-content .inner p {
-	margin-right: auto;
-	margin-left: auto;
-	max-width: 100%;
-	font-size: 18px;
-}
-
-{}
-
 .list-group-item,
 .card-footer {
 	background-color: transparent;
@@ -390,6 +309,18 @@ img::selection {
 img::-moz-selection {
 	color: #fff;
 	background: 0 0;
+}
+
+.jumbotron {
+	background: url(../img/stampBackground.jpg) center center no-repeat; 
+	background-size: cover;
+}
+
+.jumbotron .inner {
+	background-color: rgba(255,255,255,0.8);
+	z-index:1;
+	border-radius: 3px;
+	border: 5px solid #009999;
 }
 
 #membershipInfo {
