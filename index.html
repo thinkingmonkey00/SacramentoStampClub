@@ -76,11 +76,13 @@
         <p class="card-text text-center">Sign up here for upcoming event info and our semi-monthly newsletter.</p>
 
 
-        <form action="http://formspree.io/thinkingmonkeydesigns@gmail.com" class="w-50 mx-auto" method="post">
+        <form action="https://formspree.io/joannebe@pacbell.net" class="w-50 mx-auto" method="post" enctype="text/plain">
           <div class="form-group">
             <div class="row">
               <div class="input-group">
-                <input class="form-control" id="newsRequestEmail" name="_replyto" placeholder="Enter email here" type="email">
+                <label for="newsRequestEmail"></label>
+                <input class="form-control" type="email" id="newsRequestEmail" name="email" placeholder="name@example.com" type="email">
+                <input type="hidden" name="_subject" value="Please add me to your newsletter list">
                 <span class="input-group-btn">
                       <button class="btn btn-primary" type="submit" value="Send">Submit</button></span>
               </div>
@@ -227,14 +229,14 @@
             <div class="container">
             <div class="row">
               <div class="col-md-6 card card-body">
-                <form action="https://formspree.io/thinkingmonkeydesigns@gmail.com" method="post">
+                <form action="https://formspree.io/joannebe@pacbell.net" method="post">
                   <div class="form-group">
                     <label for="fullName">Name</label> <input class="form-control" name="fullName" type="text">
                   </div>
 
 
                   <div class="form-group">
-                    <label for="sacapexEmailInput">Best contact email</label> <input class="form-control" id="sacapexEmailInput" name="_replyto" placeholder="name@email.com" type="email">
+                    <label for="sacapexEmailInput">Best contact email</label> <input class="form-control" id="sacapexEmailInput" name="_replyto" placeholder="name@example.com" type="email">
                   </div>
 
 
@@ -599,7 +601,8 @@
 
 
         <div class="col-md-5">
-          <form>
+          <form action="https://formspree.io/joannebe@pacbell.net"
+      method="POST">
             <fieldset class="form-group">
               <input class="form-control" id="InputEmailFooter" name="_replyto" placeholder="name@email.com" type="email">
             </fieldset>
