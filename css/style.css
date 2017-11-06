@@ -101,6 +101,10 @@ p {
 	background-color: #fff;
 }
 
+.btn-outline-light:hover {
+	color: #009999;
+}
+
 .text-faded {
 	color: rgba(245, 245, 245, 0.7);
 }
@@ -409,6 +413,14 @@ table.tableizer-table {
 .spsOfficers .card-body,
 .spsDirectors .card-body,
 .spsChairpersons .card-body {
+	background-color: #fff;
+	color: #009999;
+	border: 2px solid #009999
+}
+
+.spsOfficers .card-footer,
+.spsDirectors .card-footer,
+.spsChairpersons .card-footer {
 	background-color: #009999;
 	color: #fff;
 }
