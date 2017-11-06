@@ -321,7 +321,7 @@ img::-moz-selection {
 }
 
 .jumbotron {
-	background: url(../img/stampBackground.jpg) center center no-repeat; 
+	background: url(http://res.cloudinary.com/drlcksx7j/image/upload/s--FY-8dbTh--/c_imagga_crop,h_800,w_1600/v1509951003/stampBackground_ux2ven.jpg) center center no-repeat; 
 	background-size: cover;
 }
 
