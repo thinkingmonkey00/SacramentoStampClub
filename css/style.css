@@ -323,7 +323,7 @@ img::-moz-selection {
 .jumbotron {
     background: url(/assets/sac_stamp_club_holidays.png);
 	background-size: cover;
-	height: 100% auto;
+	min-width: 100%;
 	min-height: 200px;
 	overflow: hidden;
 	margin-bottom: 0 auto;
