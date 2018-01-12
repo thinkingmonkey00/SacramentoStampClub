@@ -8,7 +8,7 @@ body {
 body {
 	color: #001A33;
 	-webkit-tap-highlight-color: #222;
-		font-family: 'Maven Pro', sans-serif;
+	font-family: 'Maven Pro', sans-serif;
 }
 
 @media(max-width:48em) {
@@ -184,7 +184,6 @@ p {
 	background-color: transparent;
 }
 
-
 /* responsive nav */
 
 @media(max-width:48em) {
@@ -320,13 +319,10 @@ img::-moz-selection {
 	background: 0 0;
 }
 
-.jumbotron {
-    background: url(/assets/sac_stamp_club_holidays.png);
-	background-size: cover;
-	min-width: 100%;
-	min-height: 300px;
-	overflow: hidden;
-	margin-bottom: 0 auto;
+.jumbotron-fluid img {
+	object-fit: cover;
+	object-position: 50% 50%;
+	margin: 0px;
 }
 
 #membershipInfo {
@@ -339,24 +335,25 @@ img::-moz-selection {
 	border-radius: 5px;
 }
 
-#events .card-title {;
+#events .card-title {
+	;
 	color: #009999;
 	border-radius: 5px;
 }
 
-.googleCalendar{
-  position: relative;
-  height: 0;
-  width: 100%;
-  padding-bottom: 20% ;
+.googleCalendar {
+	position: relative;
+	height: 0;
+	width: 100%;
+	padding-bottom: 20%;
 }
 
-.googleCalendar iframe{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.googleCalendar iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 #sacapexInfo .container-fluid {
@@ -404,8 +401,6 @@ table.tableizer-table {
 #ourHistory .card-title {
 	color: #009999;
 }
-
-
 
 .spsOfficers .card-body,
 .spsDirectors .card-body,
