@@ -319,10 +319,9 @@ img::-moz-selection {
 	background: 0 0;
 }
 
-.jumbotron-fluid img {
-	object-fit: cover;
-	object-position: 50% 50%;
-	margin: 0px;
+.jumbotron {
+	background-image: url(../assets/spsEasterSeals.png) center no-repeat;
+	background-size: cover;
 }
 
 #membershipInfo {
