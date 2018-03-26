@@ -320,8 +320,13 @@ img::-moz-selection {
 }
 
 .jumbotron {
-	background-image: url(../assets/spsEasterSeals.png) center no-repeat;
+	background: url(../assets/spsEasterSeals.png) center center no-repeat;
 	background-size: cover;
+	height: 100%;
+	}
+
+.jumbotron .container .btn {
+	align: bottom;
 }
 
 #membershipInfo {
