@@ -308,10 +308,10 @@ img::-moz-selection {
 	background: 0 0;
 }
 
-.jumbotron {
-	background: url(../assets/spsEasterSeals.png) center center no-repeat;
-	background-size: cover;
-	height: 100%;
+ .nextEvent {
+	background: url(../assets/silentBidSale.png) center center no-repeat;
+	background-size: contain;
+	background-color: #990000;
 	}
 
 #jumbotronBtn {
